@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+  background-color: #c1d3fe;
+}
+
+#level-title {
+  font-family:  cursive;
+  font-size: 3rem;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-table;
+  height: 200px;
+  width: 200px;
+  border: 10px solid grey;
+  border-radius: 50%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
